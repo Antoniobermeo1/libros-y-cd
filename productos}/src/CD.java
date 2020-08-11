@@ -1,8 +1,8 @@
 
 public class CD extends productos{
     private String interprete;
-	public CD(String titulo, String añoP, int codigo, double precio,double iva,double descuento, String interprete) {
-		super(titulo, añoP, codigo, precio, iva, descuento);
+	public CD(String titulo, String añoP, int codigo, double precio, String interprete) {
+		super(titulo, añoP, codigo, precio);
 		this.interprete = interprete;
 	}
 

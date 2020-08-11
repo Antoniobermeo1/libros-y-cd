@@ -1,37 +1,17 @@
 
 public class productos {
 	private String titulo,añoP;
-	private double precio,iva,descuento;
+	private double precio;
 	protected int codigo;
 	
 	
-	public productos(String titulo, String añoP, int codigo, double precio,double iva,double descuento) {
+	public productos(String titulo, String añoP, int codigo, double precio) {
 		super();
 		this.titulo = titulo;
 		this.añoP = añoP;
 		this.codigo = codigo;
 		this.precio = precio;
-		this.iva=iva;
-		this.descuento=descuento;
-	}
-	
-	
-	public double getDescuento() {
-		return descuento;
-	}
-
-
-	public void setDescuento(double descuento) {
-		this.descuento = descuento;
-	}
-
-
-	public double getIva() {
-		return iva;
-	}
-
-	public void setIva(double iva) {
-		this.iva = iva;
+		
 	}
 
 	public String getTitulo() {
